@@ -1,0 +1,23 @@
+package cn.kgc;
+
+import java.util.Random;
+
+public class Demo02 extends Demo01{
+	
+	static String string ;
+	
+	public Demo02() {
+		this.test001();
+	}
+	
+	public static void main(String[] args) {
+		
+//		System.out.println(string.charAt(0));
+		Random r = new Random();
+		int i = r.nextInt(100);
+		for (int j = 0; j < 10; j++) {
+			System.out.println(i);
+		}
+	}
+
+}

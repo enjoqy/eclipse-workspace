@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sqljdbc4-4.0.2206.100">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/druid/lib/com/microsoft/sqlserver/sqljdbc4/4.0.2206.100/sqljdbc4-4.0.2206.100.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:aop="http://www.springframework.org/schema/aop" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd"> <!-- bean definitions here -->
+        
+        <bean id="book" class="Spring.AOP.Book"></bean>
+        <bean id="mybook" class="Spring.AOP.MyBook"></bean>
+        
+        <aop:config>
+        
+           <aop:pointcut expression="execution(* Spring.AOP.Book.*(..))" id="pointcut1"/>
+           
+           <!-- 配置切面  把增强用到方法上 -->
+           <aop:aspect ref="mybook">
+               
+               <!-- 配置增强类型  method：增强类里面使用哪个方法作为前置 -->
+               <aop:before method="before1" pointcut-ref="pointcut1"/>
+               <aop:after-returning method="after1" pointcut-ref="pointcut1"/>
+               <aop:around method="arround1" pointut-ref="pointcut1"/>
+           
+           </aop:aspect>
+        
+        
+        
+        </aop:config>
+        
+         
+</beans>

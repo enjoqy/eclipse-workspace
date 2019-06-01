@@ -1,0 +1,21 @@
+package Demo;
+
+
+public class Test02 {
+	
+	public static void main(String[] args) {
+		SuperMan sm = new SuperMan();
+		SuperMan sm1 = new SuperMan();
+		
+		System.out.println(sm == sm1);
+		System.out.println(sm.equals(sm1));
+		
+		Demo01<String , Integer, Character> d = new Demo01<String, Integer, Character>();
+		
+		d.setName("11");
+		d.setAge(11);
+		d.setSex('1');
+		System.out.println(d);
+	}
+
+}

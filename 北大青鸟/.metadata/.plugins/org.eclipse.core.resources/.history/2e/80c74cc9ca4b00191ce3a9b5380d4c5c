@@ -1,0 +1,20 @@
+package cn.kgc;
+
+
+
+public class Demo02 extends Demo01{
+	
+	static String string ;
+	
+	public Demo02() {
+		this.test001();
+	}
+	
+	public static void main(String[] args) {
+		
+//		System.out.println(string.charAt(0));
+		System.out.println("\\n");
+		
+	}
+
+}

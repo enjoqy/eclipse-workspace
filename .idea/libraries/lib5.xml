@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="lib5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/kgc0327/lib/commons-io-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kgc0327/lib/commons-io-2.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kgc0327/lib/jsoup-1.11.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kgc0327/lib/JsoupXpath-2.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kgc0327/lib/lombok.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kgc0327/lib/commons-lang3-3.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kgc0327/lib/antlr4-runtime-4.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kgc0327/lib/commons-io-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kgc0327/lib/commons-io-2.6-tests.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kgc0327/lib/commons-io-2.6-test-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kgc0327/lib/dom4j-2.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kgc0327/lib/commons-io-2.6-javadoc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

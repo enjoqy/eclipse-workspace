@@ -1,0 +1,10 @@
+package com.train;
+
+public class Demo01Extends {
+	
+	public static void main(String[] args) {
+		Car car1 = new JAC("宏光", "发家致富型", 30000, 20);
+		System.out.println(car1);
+	}
+
+}

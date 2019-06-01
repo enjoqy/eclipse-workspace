@@ -1,0 +1,35 @@
+package cn.kgc.utlis;
+
+import java.util.Date;
+import java.util.Scanner;
+
+/**
+ * 打印指定月份的日期
+ * 
+ * @author zhuhao
+ * @date 2019年3月26日
+ */
+public class PrintDate {
+	
+	public static void main(String[] args) {
+		
+//		System.out.println("请按照yyyy-MM-dd 的格式，输入指定日期：");
+//		
+//		Scanner input = new Scanner(System.in);
+//		
+//		String date = input.next();
+//		
+//		System.out.println(date);
+		
+		System.out.println("周日\t周一\t周二\t周三\t周四\t周五\t周六");
+		
+		for(int i=1; i<30; i++) {
+			System.out.print(i + "\t");
+			if(i%7 == 0 ) { 
+				System.out.println(\n);
+			}
+		}
+		
+	}
+
+}

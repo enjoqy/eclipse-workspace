@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JSP_Mysql_demo01/WebContent/WEB-INF/lib/mysql-connector-java-5.1.26.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JSP_Mysql_demo01/WebContent/WEB-INF/lib/lombok.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

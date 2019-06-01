@@ -1,0 +1,10 @@
+java.lang.Exception: No tests found matching [{ExactMatcher:fDisplayName=test9], {ExactMatcher:fDisplayName=test9(cn.kgc.myio.demo02)], {LeadingIdentifierMatcher:fClassName=cn.kgc.myio.demo02,fLeadingIdentifier=test9]] from org.junit.internal.requests.ClassRequest@69d0a921
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:40)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.createFilteredTest(JUnit4TestLoader.java:80)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.createTest(JUnit4TestLoader.java:71)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.loadTests(JUnit4TestLoader.java:46)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:522)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+

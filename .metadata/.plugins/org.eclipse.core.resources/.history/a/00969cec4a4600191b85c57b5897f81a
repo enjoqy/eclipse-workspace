@@ -1,0 +1,18 @@
+package cn.kgc;
+
+public class Demo01 {
+	
+	public static void main(String[] args) {
+		/*int i = 0;
+		int j = i++;
+		if((i > j++)||(++i < j--)) {
+			i = --j + ++i;
+		}
+		System.out.println(i);
+		System.out.println(j);*/
+		if((true)&&(true)) {
+			System.out.println("///");
+		}
+	}
+
+}

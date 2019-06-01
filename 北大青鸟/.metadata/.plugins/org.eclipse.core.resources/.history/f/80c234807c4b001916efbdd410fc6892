@@ -1,0 +1,44 @@
+package com.bjsxt.collection.hashmap;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map.Entry;
+import java.util.Set;
+
+/**
+ * 测试hashmap
+ * @author zhuhao
+ * @date 2019年3月20日
+ */
+public class MyHashMap {
+
+	public static void main(String[] args) {
+		
+		HashMap<Integer, String> hm = new HashMap<>();
+		hm.put(11, "111");
+		hm.put(2, "112");
+		hm.put(3, "113");
+		hm.put(4, "114");
+		
+		hm.forEach((k,v) -> {
+			System.out.println("a: " + k + "b: " + v);
+			if("22".equals(k)) {
+				System.out.println("hello E");
+			}
+		});
+		
+		Set<Integer> ks = hm.keySet();
+		Iterator<Integer> iterator = ks.iterator();
+		while (iterator.hasNext()) {
+			Integer next = iterator.next();
+			String string = hm.get(next);
+			System.out.println(string);
+			
+		}
+		
+		Set<Entry<Integer, String>> es = hm.entrySet();
+		for (Entry<Integer, String> entry : es) {
+			System.out.println(entry.getKey() + entry.getValue());
+		}
+	}
+}

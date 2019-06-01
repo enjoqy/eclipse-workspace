@@ -1,0 +1,8 @@
+1559092664435	Rename package 'org.zhh.dao.dd'
+1559092939171	Rename package 'org.zhh.damain'
+1559093992195	Extract local variable 'is'
+1559094009907	Extract local variable 'properties'
+1559094304104	Extract local variable 'driver'
+1559094449977	Extract local variable 'driver'
+1559097696361	Copy folders
+1559098002080	Copy packages

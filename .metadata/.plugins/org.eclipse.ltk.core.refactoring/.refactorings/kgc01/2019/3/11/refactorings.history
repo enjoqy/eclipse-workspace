@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 5 packages to &apos;北大青鸟/src&apos;&#x0D;&#x0A;- Original project: &apos;kgc01&apos;&#x0D;&#x0A;- Destination element: &apos;北大青鸟/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     kgc01/src/com.train&#x0D;&#x0A;     kgc01/src/com.train.homework&#x0D;&#x0A;     kgc01/src/com.train.keyword&#x0D;&#x0A;     kgc01/src/kgc.orderingmeals&#x0D;&#x0A;     kgc01/src/com.train.entity.test" description="Copy packages" destination="=北大青鸟/src" element1="/src&lt;com.train" element2="/src&lt;com.train.homework" element3="/src&lt;com.train.keyword" element4="/src&lt;kgc.orderingmeals" element5="/src&lt;com.train.entity.test" flags="589830" fragments="5" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1552385506495" version="1.0"/>
+</session>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jboss-j2ee-4.2.2.GA">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/druid/lib/jboss/jboss-j2ee/4.2.2.GA/jboss-j2ee-4.2.2.GA.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

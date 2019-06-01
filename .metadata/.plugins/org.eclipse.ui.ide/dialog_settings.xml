@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="H:\svn仓库wc"/>
+		<item value="D:\projects\eclipse-workspace\News1"/>
+		<item value="D:\projects\eclipse-workspace\druid"/>
+		<item value="D:\projects\eclipse-workspace\JSPDemo02"/>
+		<item value="D:\eclipse-workspace\Ma_Chao.-WuYeGuanLiXiTong-master"/>
+		<item value="H:\编程资料汇总\编程学习资料汇总\编程学习资料\JDBCTutorial"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\eclipse-workspace\domxml"/>
+			<item value="D:\eclipse-workspace"/>
+			<item value="H:\编程资料汇总\编程学习资料汇总\编程学习资料\topic-dao"/>
+			<item value="D:\eclipse-workspace\javase"/>
+			<item value="H:\编程资料汇总\编程学习资料汇总\编程学习资料"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+			<item value="H:\编程资料汇总\编程学习资料汇总\编程学习资料\bdqnDemo01.zip"/>
+			<item value="H:\编程资料汇总\编程学习资料汇总\编程学习资料\bdqnDemo.zip"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.wst.jsdt.ui.java"/>
+		</list>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+	<section name="ResourceNavigator">
+		<item key="ResourceViewer.STORE_SORT_TYPE" value="1"/>
+		<item key="ResourceWorkingSetFilter.STORE_WORKING_SET" value="Aggregate for window 1551752375428"/>
+	</section>
+</section>

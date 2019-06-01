@@ -1,0 +1,52 @@
+package cn.kgc.utlis;
+
+import java.time.Month;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Scanner;
+
+/**
+ * 打印指定月份的日期
+ * 
+ * @author zhuhao
+ * @date 2019年3月26日
+ */
+public class PrintDate {
+	
+	public static void main(String[] args) {
+		
+//		Scanner input = new Scanner(System.in);
+//		
+//		System.out.println("请输入指定年份：");
+//		int year = input.nextInt();
+		
+//		System.out.println("请输入指定月份：");
+//		int month = input.nextInt();
+//		
+//		System.out.println(date);
+		
+		Calendar calendar = Calendar.getInstance();
+		int date = Calendar.DATE;       //这里有疑问，稍后再整
+		System.out.println(date);
+		
+		
+		int month = 3;
+		int year = 2019;
+		calendar.set(Calendar.MONTH, month - 1);
+		calendar.set(Calendar.YEAR, year);
+		int actualMaximum = calendar.getActualMaximum(Calendar.DATE);
+		System.out.println(actualMaximum);
+		
+		
+		System.out.println("周日\t周一\t周二\t周三\t周四\t周五\t周六\n");
+		
+		for(int i=1; i<actualMaximum; i++) {
+			System.out.print(i + "\t");
+			if(i%7 == 0 ) { 
+				System.out.println("\n");
+			}
+		}
+		
+	}
+
+}

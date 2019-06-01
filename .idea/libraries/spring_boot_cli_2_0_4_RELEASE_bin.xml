@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spring-boot-cli-2.0.4.RELEASE-bin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.metadata/.plugins/org.springframework.ide.eclipse.boot/installs/spring-boot-cli-2.0.4.RELEASE-bin.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE books[
+	<!ELEMENT books (book +)>
+	<!ELEMENT book (name, auther, price)>
+	<!ELEMENT book id CDATA #IMPLIED >
+	<!ELEMENT name (#PCDATA) >
+	<!ELEMENT auther (#PCDATA) >
+	<!ELEMENT price (#PCDATA) >
+	
+]>
+
+<books>
+	<book id="1">
+		<name>西游记</name>
+		<auther>吴承恩</auther>
+		<price>50.0</price>
+	</book>
+	<book id="2">
+		<name>水浒传</name>
+		<auther>施耐庵</auther>
+		<price>80.0</price>
+	</book>
+	<book id="3">
+		<name>三国演义</name>
+		<auther>罗贯中</auther>
+		<price>100.0</price>
+	</book>
+	<book id="4">
+		<name>红楼梦</name>
+		<auther>曹雪芹</auther>
+		<price>150.0</price>
+	</book>
+</books>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="308" key="HistoryTableProvider.SVNHistoryPage.日期"/>
+	<item value="122" key="AnnotateDialog.location.y"/>
+	<item value="525" key="AnnotateDialog.size.x"/>
+	<item value="246" key="HistoryTableProvider.SVNHistoryPage.作者"/>
+	<item value="389" key="AnnotateDialog.location.x"/>
+	<item value="394" key="AnnotateDialog.size.y"/>
+	<item value="614" key="HistoryTableProvider.SVNHistoryPage.注释"/>
+	<item value="123" key="HistoryTableProvider.SVNHistoryPage.修订"/>
+	<section name="NewLocationWizard">
+		<list key="ConfigurationWizardMainPage.STORE_URL_ID">
+			<item value="svn://47.99.150.144"/>
+		</list>
+	</section>
+</section>

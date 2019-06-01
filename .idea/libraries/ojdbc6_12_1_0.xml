@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ojdbc6-12.1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/druid/lib/com/oracle/ojdbc6/12.1.0/ojdbc6-12.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

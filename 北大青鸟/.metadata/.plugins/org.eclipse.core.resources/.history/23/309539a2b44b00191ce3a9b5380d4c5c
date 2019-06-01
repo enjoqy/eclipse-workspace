@@ -1,0 +1,29 @@
+package cn.kgc;
+
+import java.util.LinkedList;
+
+public class Demo01 {
+	final static  int i = 10;
+
+
+	public static void main(String[] args) {
+		
+		  LinkedList books=new LinkedList();
+
+		  books.offer("struts");
+
+		  books.push("javase初");
+
+		  books.offerFirst("javaee");
+
+		  for(int i=0;i<books.size();i++){
+
+		   System.out.print(books.get(i)+"  ");
+
+		  }
+
+		  System.out.println(books.peekFirst());
+
+
+	}
+}

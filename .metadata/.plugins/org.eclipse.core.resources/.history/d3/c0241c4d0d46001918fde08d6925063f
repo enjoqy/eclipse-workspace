@@ -1,0 +1,38 @@
+### direct log messages to stdout ###
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.Target=System.err
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=%d{ABSOLUTE} %5p %c{1}:%L - %m%n
+
+### direct messages to file mylog.log ###
+log4j.appender.file=org.apache.log4j.FileAppender
+log4j.appender.file.File=c:\mylog.log
+log4j.appender.file.layout=org.apache.log4j.PatternLayout
+log4j.appender.file.layout.ConversionPattern=%d{ABSOLUTE} %5p %c{1}:%L - %m%n
+
+### set log levels - for more verbose logging change 'info' to 'debug' ###
+
+log4j.rootLogger=info, stdout
+
+
+ ### set log levels ###  
+log4j.rootLogger = info,stdout,D,E  
+
+log4j.appender.stdout = org.apache.log4j.ConsoleAppender  
+log4j.appender.stdout.Target = System.out  
+log4j.appender.stdout.layout = org.apache.log4j.PatternLayout  
+log4j.appender.stdout.layout.ConversionPattern = [%-5p] %d{yyyy-MM-dd HH:mm:ss,SSS} method:%l%n%m%n  
+
+log4j.appender.D = org.apache.log4j.DailyRollingFileAppender  
+log4j.appender.D.File = H://logs/log.log  
+log4j.appender.D.Append = true  
+log4j.appender.D.Threshold = INFO   
+log4j.appender.D.layout = org.apache.log4j.PatternLayout  
+log4j.appender.D.layout.ConversionPattern = %-d{yyyy-MM-dd HH:mm:ss}  [ %t:%r ] - [ %p ]  %m%n  
+
+log4j.appender.E = org.apache.log4j.DailyRollingFileAppender  
+log4j.appender.E.File =H://logs/error.log   
+log4j.appender.E.Append = true  
+log4j.appender.E.Threshold = ERROR   
+log4j.appender.E.layout = org.apache.log4j.PatternLayout  
+log4j.appender.E.layout.ConversionPattern = %-d{yyyy-MM-dd HH:mm:ss}  [ %t:%r ] - [ %p ]  %m%n

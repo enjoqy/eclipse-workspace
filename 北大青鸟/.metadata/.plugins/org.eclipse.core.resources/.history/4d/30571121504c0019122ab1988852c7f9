@@ -1,0 +1,12 @@
+package Demo;
+
+public class Test02 {
+	
+	public static void main(String[] args) {
+		SuperMan sm = new SuperMan();
+		SuperMan sm1 = new SuperMan();
+		
+		System.out.println(sm.equals(sm1));
+	}
+
+}

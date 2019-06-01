@@ -1,0 +1,17 @@
+package com.train;
+
+public class Enjoy extends Car{
+	
+	private final static String BRAND = "Enjoy";
+	
+	public Enjoy() {
+		this.setBrand(BRAND);
+	}
+
+	public Enjoy(String brand, String type, double price, int loadNum) {
+		super(BRAND, type, price, loadNum);
+	}
+	
+	
+
+}

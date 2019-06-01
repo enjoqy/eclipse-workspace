@@ -1,0 +1,16 @@
+package org.zhh.domain;
+
+import lombok.Data;
+
+@Data
+@bu
+@all
+public class Informations {
+
+    private int id;
+    private String title;
+    private String content;
+    private Integer replyCount;
+    private String reportTime;
+
+}

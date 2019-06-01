@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/JspDemo01" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/druid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/javaweb-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/javaweb-demo01" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kgc0327" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/北大青鸟" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/基础测试" vcs="svn" />
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="ext">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.metadata/.plugins/org.springframework.ide.eclipse.boot/installs/spring-boot-cli-2.0.4.RELEASE-bin/spring-2.0.4.RELEASE/lib/ext/spring-cloud-cli-2.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.metadata/.plugins/org.springframework.ide.eclipse.boot/installs/spring-boot-cli-2.0.4.RELEASE-bin/spring-2.0.4.RELEASE/lib/ext/spring-security-crypto-5.0.7.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.metadata/.plugins/org.springframework.ide.eclipse.boot/installs/spring-boot-cli-2.0.4.RELEASE-bin/spring-2.0.4.RELEASE/lib/ext/bcpkix-jdk15on-1.56.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.metadata/.plugins/org.springframework.ide.eclipse.boot/installs/spring-boot-cli-2.0.4.RELEASE-bin/spring-2.0.4.RELEASE/lib/ext/spring-cloud-launcher-cli-2.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.metadata/.plugins/org.springframework.ide.eclipse.boot/installs/spring-boot-cli-2.0.4.RELEASE-bin/spring-2.0.4.RELEASE/lib/ext/spring-security-rsa-1.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.metadata/.plugins/org.springframework.ide.eclipse.boot/installs/spring-boot-cli-2.0.4.RELEASE-bin/spring-2.0.4.RELEASE/lib/ext/bcprov-jdk15on-1.56.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

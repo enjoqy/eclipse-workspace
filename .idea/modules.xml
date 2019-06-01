@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/javaweb-demo/mysqldemo/.mvn/.mvn.iml" filepath="$PROJECT_DIR$/javaweb-demo/mysqldemo/.mvn/.mvn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-demo01/mysqldemo/.mvn/.mvn1.iml" filepath="$PROJECT_DIR$/javaweb-demo01/mysqldemo/.mvn/.mvn1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HibernateW3C/HibernateW3C.iml" filepath="$PROJECT_DIR$/HibernateW3C/HibernateW3C.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hibernateday04/Hibernateday04.iml" filepath="$PROJECT_DIR$/Hibernateday04/Hibernateday04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JSPDemo02/JSPDemo02.iml" filepath="$PROJECT_DIR$/JSPDemo02/JSPDemo02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JSP_Mysql_demo01/JSP_Mysql_demo01.iml" filepath="$PROJECT_DIR$/JSP_Mysql_demo01/JSP_Mysql_demo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/News1/News1.iml" filepath="$PROJECT_DIR$/News1/News1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring/Spring.iml" filepath="$PROJECT_DIR$/Spring/Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringTest/SpringTest.iml" filepath="$PROJECT_DIR$/SpringTest/SpringTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javase/javase.iml" filepath="$PROJECT_DIR$/javase/javase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kgc0327/kgc0327.iml" filepath="$PROJECT_DIR$/kgc0327/kgc0327.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kgc1/kgc1.iml" filepath="$PROJECT_DIR$/kgc1/kgc1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-demo01/mysqldemo/src/main/main.iml" filepath="$PROJECT_DIR$/javaweb-demo01/mysqldemo/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/druid/druid-spring-boot-starter/src/main/main1.iml" filepath="$PROJECT_DIR$/druid/druid-spring-boot-starter/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-demo/mysqldemo/src/main/main2.iml" filepath="$PROJECT_DIR$/javaweb-demo/mysqldemo/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/druid/src/main/main3.iml" filepath="$PROJECT_DIR$/druid/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/druid/druid-spring-boot-starter/src/test/test.iml" filepath="$PROJECT_DIR$/druid/druid-spring-boot-starter/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-demo/mysqldemo/src/test/test1.iml" filepath="$PROJECT_DIR$/javaweb-demo/mysqldemo/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/druid/src/test/test2.iml" filepath="$PROJECT_DIR$/druid/src/test/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-demo01/mysqldemo/src/test/test3.iml" filepath="$PROJECT_DIR$/javaweb-demo01/mysqldemo/src/test/test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domxml/topic-html-jsoup/topic-html-jsoup.iml" filepath="$PROJECT_DIR$/domxml/topic-html-jsoup/topic-html-jsoup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domxml/topic-xml-dom/topic-xml-dom.iml" filepath="$PROJECT_DIR$/domxml/topic-xml-dom/topic-xml-dom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domxml/topic-xml-dom4j/topic-xml-dom4j.iml" filepath="$PROJECT_DIR$/domxml/topic-xml-dom4j/topic-xml-dom4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domxml/topic-xml-jdom/topic-xml-jdom.iml" filepath="$PROJECT_DIR$/domxml/topic-xml-jdom/topic-xml-jdom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domxml/topic-xml-sax/topic-xml-sax.iml" filepath="$PROJECT_DIR$/domxml/topic-xml-sax/topic-xml-sax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/北大青鸟/北大青鸟.iml" filepath="$PROJECT_DIR$/北大青鸟/北大青鸟.iml" />
+      <module fileurl="file://$PROJECT_DIR$/基础测试/基础测试.iml" filepath="$PROJECT_DIR$/基础测试/基础测试.iml" />
+    </modules>
+  </component>
+</project>

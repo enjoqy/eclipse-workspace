@@ -1,0 +1,39 @@
+package cn.kgc.demo02;
+
+import java.util.Calendar;
+import java.util.Date;
+
+public class DemoSystem {
+
+	public static void main(String[] args) {
+		nijie nijie = null;
+		//		for (int i = 0; i < 100; i++) {
+		//		nijie = new nijie();
+		//		System.gc();
+		//		}
+
+		Calendar calendar = Calendar.getInstance();
+		calendar.setTime(new Date());
+		calendar.add(Calendar.DATE, 1);
+		Date date = calendar.getTime();
+		System.out.println(date);
+
+		Date date2 = new Date((new Date().getTime() + (24*60*60*1000)));
+		System.out.println(date2);
+
+		calendar.set(Calendar.DATE, calendar.get(Calendar.DATE) + 1);
+		System.out.println(calendar.DAY_OF_MONTH);
+
+	}
+
+}
+
+class nijie {
+
+	@Override
+	protected void finalize() throws Throwable {
+		System.out.println("我被回收了！");
+		super.finalize();
+	}
+
+}

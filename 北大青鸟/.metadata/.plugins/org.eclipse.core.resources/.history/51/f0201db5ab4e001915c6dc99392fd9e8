@@ -1,0 +1,13 @@
+package cn.kgc.demo01;
+
+public class Demo09999 {
+	
+	public static void main(String[] args) {
+		String string =  "gdlzhh321@163.cn";
+		
+		System.out.println(string.toUpperCase());
+		System.out.println(string.length());
+		System.out.println(string.charAt(0));
+	}
+
+}

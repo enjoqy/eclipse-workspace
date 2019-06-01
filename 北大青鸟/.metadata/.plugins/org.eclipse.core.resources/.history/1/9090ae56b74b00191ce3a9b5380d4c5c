@@ -1,0 +1,22 @@
+package cn.kgc;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Random;
+
+public class Demo01 {
+	 int i = 10;
+	 
+	 public void methodThree(){
+
+			System.out.println(i);
+
+		}
+
+	public static void main(String[] args) {
+		Demo01 demo01 = new Demo01();
+		demo01.methodThree();
+	}
+}

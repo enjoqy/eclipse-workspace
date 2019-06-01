@@ -1,0 +1,7 @@
+package cn.kgc.demo01;
+
+public enum Week {
+	
+	  RED("红色", 1), GREEN("绿色", 2), BLANK("白色", 3), YELLO("黄色", 4); 
+
+}

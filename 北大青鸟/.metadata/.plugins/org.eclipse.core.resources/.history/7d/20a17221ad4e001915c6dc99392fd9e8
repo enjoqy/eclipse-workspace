@@ -1,0 +1,19 @@
+package cn.kgc.demo01;
+
+public class Demo09999 {
+	
+	public static void main(String[] args) {
+		String str =  "2gdlzhh321@163.cnm1";
+		
+		System.out.println(str.toUpperCase());
+		System.out.println(str.length());
+		System.out.println(str.charAt(0));
+		
+		String substring = str.substring(0, 5);
+		System.out.println(substring);
+		
+		boolean matches = str.matches("d");
+		System.out.println(matches);
+	}
+
+}

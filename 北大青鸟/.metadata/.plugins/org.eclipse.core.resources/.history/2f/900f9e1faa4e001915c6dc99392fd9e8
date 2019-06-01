@@ -1,0 +1,11 @@
+package cn.kgc.demo01;
+
+public class Demo09999 {
+	
+	public static void main(String[] args) {
+		String string =  "11aa";
+		
+		System.out.println(string.toUpperCase());
+	}
+
+}

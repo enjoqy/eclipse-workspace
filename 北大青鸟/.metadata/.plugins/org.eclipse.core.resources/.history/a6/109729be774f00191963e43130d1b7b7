@@ -1,0 +1,86 @@
+package cn.kgc.demo02;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
+public class DemoSystem {
+
+	public static void main(String[] args) {
+		nijie nijie = null;
+		//		for (int i = 0; i < 100; i++) {
+		//		nijie = new nijie();
+		//		System.gc();
+		//		}
+
+		
+		//获得明天的日期
+		Calendar calendar = Calendar.getInstance();
+		calendar.add(Calendar.DATE, 1);
+		System.out.println(calendar.getTime());
+
+		Date date2 = new Date((new Date().getTime() + (24*60*60*1000)));
+		System.out.println(date2);
+
+		Calendar calendar2 = Calendar.getInstance();
+		calendar2.set(Calendar.DATE, calendar2.get(Calendar.DATE) + 1);
+		System.out.println(calendar2.getTime());
+		
+		
+		
+		
+		//DataFormat四种获得实例并格式化的方式
+		DateFormat df1 = DateFormat.getInstance();
+		System.out.println(df1.format(new Date()));
+		
+		DateFormat df2 = DateFormat.getDateInstance();
+		System.out.println(df2.format(new Date()));
+		
+		DateFormat df3 = DateFormat.getTimeInstance();
+		System.out.println(df3.format(new Date()));
+
+		DateFormat df4 = DateFormat.getDateTimeInstance();
+		System.out.println(df4.format(new Date()));
+		
+		//SimpleDateFormat实例化的方式
+		SimpleDateFormat df = new  SimpleDateFormat();
+		SimpleDateFormat s = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss:SSS");
+		System.out.println(s.format(new Date()));
+		
+		s = new SimpleDateFormat("HH:mm:ss:SSS");
+		System.out.println(s.format(new Date()));
+		
+		s = new SimpleDateFormat("SSS");
+		System.out.println(s.format(new Date()));
+		
+		s = new SimpleDateFormat("yyyy-MM-dd");
+		System.out.println(s.format(new Date()));
+		
+		s = new SimpleDateFormat("MM-dd HH:mm");
+		System.out.println(s.format(new Date()));
+		
+		//SimpleDateFormat-->未格式化
+		String dateString = "2019-3-26 11:30:35:111";
+		try {
+			Date parse = s.parse(dateString);
+			System.out.println(parse);
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+}
+
+class nijie {
+
+	@Override
+	protected void finalize() throws Throwable {
+		System.out.println("我被回收了！");
+		super.finalize();
+	}
+
+}

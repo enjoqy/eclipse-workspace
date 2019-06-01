@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE books[
+	
+]>
+
+<books>
+	<book id="1"  type="玄幻" content="西天取经">
+		<name>西游记</name>
+		<auther>吴承恩</auther>
+		<price>50.0</price>
+	</book>
+	<book id="2" type="起义" content="108位好汉">
+		<name>水浒传</name>
+		<auther>施耐庵</auther>
+		<price>80.0</price>
+	</book>
+	<book id="3" type="战争" content="三国争霸" >
+		<name>三国演义</name>
+		<auther>罗贯中</auther>
+		<price>100.0</price>
+	</book>
+	<book id="4" type="历史人文" content="封建大家庭中的人事物">
+		<name>红楼梦</name>
+		<auther>曹雪芹</auther>
+		<price>150.0</price>
+	</book>
+</books>

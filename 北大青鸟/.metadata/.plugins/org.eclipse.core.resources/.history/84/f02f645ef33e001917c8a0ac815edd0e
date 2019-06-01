@@ -1,0 +1,16 @@
+package com.train;
+
+public class JAC extends Car{
+	
+	private final static String BRAND = "JAC";
+	
+	public JAC() {
+		this.setBrand(BRAND);
+	}
+
+	public JAC(String brand, String type, double price, int loadNum) {
+		super(BRAND, type, price, loadNum);
+	}
+
+	
+}

@@ -1,0 +1,27 @@
+package com.bjsxt.collection.hashmap;
+
+import java.util.Hashtable;
+import java.util.Map.Entry;
+import java.util.TreeMap;
+
+/**
+ * 测试treemap
+ * @author zhuhao
+ * @date 2019年3月21日
+ */
+public class MyTreeMap {
+	public static void main(String[] args) {
+		TreeMap<Integer, String> tm = new TreeMap<>();
+		tm.put(1, "11");
+		tm.put(2, "12");
+		tm.put(3, "13");
+		tm.put(4, "14");
+		tm.put(5, "15");
+		
+		System.out.println(tm);
+		
+		Entry<Integer, String> lastEntry = tm.lastEntry();
+		Hashtable<K, V>
+		
+	}
+}

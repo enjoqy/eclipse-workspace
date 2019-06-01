@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:p="http://www.springframework.org/schema/p"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <!-- ioc入门 -->
+<!--         <bean id = "user" class="Spring框架.User">  -->
+        <!-- 有参构造注入属性 -->  
+<!--         <constructor-arg name="name" value="小明同学"  ></constructor-arg> -->
+<!--         </bean> -->
+
+
+
+        <!-- set方法注入属性 -->
+<!--         <bean id="book"  class="Spring框架.Book" > -->
+<!--         <property name="bookname" value="降龙十八掌" ></property> -->
+<!--         </bean> -->
+
+
+<!--        <bean id="userDao1111" class="Spring框架.UserDao" ></bean> -->
+<!--        <bean id="userService" class="Spring框架.UserService"> -->
+       <!-- 注入Dao对象
+             name属性值： service类里面的属性名称
+                                                                       现在不要写value属性，因为上面的是字符串，现在是对象
+                                写ref属性 ：dao配置bean标签中id值                                                        
+        -->
+<!--        <property name="userDao" ref="userDao1111"></property> -->
+<!--        </bean> -->
+
+
+
+            <!-- p名称空间注入 -->
+<!--             <bean id="person" class="Spring框架.Person" p:person="小强"></bean> -->
+
+
+
+           <bean id="person" class="Spring框架.Person">
+           
+           <!-- 数组 -->
+           <property name="str" >
+              <list>
+                 <value>1</value>
+                 <value>2</value>
+                 <value>3</value>
+              </list>
+           </property>
+           
+           <!-- list -->
+           <property name="list">
+             <list>
+                 <value>4</value>
+                 <value>5</value>
+                 <value>6</value>
+              </list>
+           </property>
+           
+           <!-- map -->
+           <property name="map">
+              <map>
+                <entry key="aa" value="小a"></entry>
+                <entry key="bb" value="小b"></entry>
+                <entry key="cc" value="小c"></entry>
+              </map>
+           </property>
+           
+           <!-- properties -->
+           <property name="properties">
+              <props>
+                <prop key="特殊">很特殊</prop>
+                <prop key="牛逼">牛逼死啦</prop>
+              </props>
+           </property>
+           
+           </bean>
+
+
+   
+</beans>

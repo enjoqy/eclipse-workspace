@@ -1,0 +1,14 @@
+package org.zhh.util;
+
+/**
+ * 
+ * @author zhuhao
+ * @date 2019年5月29日
+ */
+public class JDBCUtils {
+	
+	static {
+		JDBCUtils.
+	}
+
+}

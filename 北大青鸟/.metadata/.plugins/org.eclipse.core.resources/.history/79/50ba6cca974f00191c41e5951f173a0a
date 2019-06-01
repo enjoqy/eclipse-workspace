@@ -1,0 +1,24 @@
+package cn.kgc.demo02;
+
+import org.junit.Test;
+
+import lombok.Builder;
+import lombok.Data;
+
+@Builder
+@Data
+public class MyLombokDemo {
+	
+	private String name;
+	
+	
+	@Test
+	public void test() {
+		MyLombokDemo builder = MyLombokDemo.builder().name("qaq").build();
+//		MyLombokDemo m = new MyLombokDemo(name);
+//		m.setName("1111");
+		builder.setName("22122");
+		System.out.println(builder.toString());
+	}
+
+}

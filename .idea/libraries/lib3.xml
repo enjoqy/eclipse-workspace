@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="lib3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/domxml/topic-html-jsoup/lib/commons-lang3-3.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/domxml/topic-html-jsoup/lib/antlr4-runtime-4.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/domxml/topic-html-jsoup/lib/JsoupXpath-2.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/domxml/topic-html-jsoup/lib/jsoup-1.11.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/domxml/topic-html-jsoup/lib/commons-io-2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

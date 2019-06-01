@@ -1,0 +1,17 @@
+package cn.kgc.demo01;
+
+import java.util.UUID;
+
+public final class MyUUID {
+	
+	private long id;
+	
+	static {
+		UUID uuid = UUID.randomUUID();
+		} 
+	
+	public static void main(String[] args) {
+		System.out.println(uuid);
+	}
+
+}

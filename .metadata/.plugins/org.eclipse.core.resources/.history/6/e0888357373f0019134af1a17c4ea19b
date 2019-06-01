@@ -1,0 +1,32 @@
+package com.bjsxt.collection.hashmap;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class TestMap {
+	
+	public static void main(String[] args) {
+		Map m = new HashMap();
+		m.put(111, 222);
+		m.put("xiaoming", "zhendiao");
+		
+	}
+	
+	
+
+}
+
+class Wife{
+	String name;
+
+	public Wife(String name) {
+		this.name = name;
+	}
+
+	public Wife() {
+		super();
+	}
+	
+}
+
+

@@ -1,0 +1,35 @@
+package cn.kgc.demo01;
+
+import java.util.UUID;
+
+import org.junit.Test;
+
+public final class CreateID {
+
+	private static long ID;
+
+	static UUID uuid = UUID.randomUUID();
+	
+	private long  replace(UUID uuid) {  //将uuid中的前10位数字提取，并返回long
+		String str =  uuid.toString().replace("-", "");
+		StringBuilder str1 = new StringBuilder();
+		for (char c : str.toCharArray()) {
+			if(Character.isDigit(c)) {
+				str1.append(c);
+			}
+		}
+		String str2 = str1.toString().substring(0,10);
+		long l = Long.parseLong(str2);
+		return l;
+	}
+
+	public static void main(String[] args) {
+		CreateID cid = new CreateID();
+//		System.out.println(uuid.toString());
+		long l = cid.replace(uuid);
+		System.out.println(l);
+//		System.out.println(str.length());
+	}
+	
+
+}

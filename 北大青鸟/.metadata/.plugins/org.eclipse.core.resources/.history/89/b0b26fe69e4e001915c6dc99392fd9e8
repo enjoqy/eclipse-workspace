@@ -1,0 +1,11 @@
+package cn.kgc.demo01;
+
+public enum Week {
+	
+	s,d,f;
+	
+	
+	String name;
+	
+
+}

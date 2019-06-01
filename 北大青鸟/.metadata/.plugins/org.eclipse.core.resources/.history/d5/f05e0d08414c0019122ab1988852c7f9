@@ -1,0 +1,46 @@
+package cn.kgc;
+
+/**
+ * 在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，
+ * 每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，
+ * 判断数组中是否含有该整数。
+ * 
+ * @author zhuhao
+ * @date 2019年3月22日
+ */
+public class FindNumber {
+	
+	public boolean Find(int target, int [][] array) {
+		
+		if(array.length == 0 || array[0].length == 0  ) {
+			return false;
+		}
+		
+		int rows = array.length-1;
+		int cols = array[0].length-1;
+		int i = 0;
+		int j = cols;
+		
+		while(i <= rows && j >= 0){
+			if(array[i][j] < target){
+				i++;
+			}else if(array[i][j] > target){
+				j--;
+			}else{
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	public static void main(String[] args) {
+		FindNumber d = new FindNumber();
+		int[][] a = {{1,1,1},{3,3,3},{4,4,4}};
+		boolean find = d.Find(2, a);
+		System.out.println(find);
+	}
+
+	
+
+	
+}

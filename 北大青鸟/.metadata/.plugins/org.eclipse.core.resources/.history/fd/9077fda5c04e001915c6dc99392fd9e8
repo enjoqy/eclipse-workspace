@@ -1,0 +1,24 @@
+package cn.kgc.demo01;
+
+import java.util.UUID;
+
+public final class CreateID {
+
+	private static long ID;
+
+	static UUID uuid = UUID.randomUUID();
+	
+	private String  replace(UUID uuid) {
+		String str =  uuid.toString().replace("-", "");
+		str = str.substring(0, 17);
+		
+		return str;
+	}
+
+	public static void main(String[] args) {
+		CreateID cid = new CreateID();
+		String str = cid.replace(uuid);
+		System.out.println(str);
+	}
+
+}

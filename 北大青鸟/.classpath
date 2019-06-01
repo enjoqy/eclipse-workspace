@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="lib/javax.mail.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.47.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j-2.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/lombok-1.16.12.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.6-sources.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.6-test-sources.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.6-tests.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.6.jar" sourcepath="H:/编程资料汇总/编程学习资料汇总/utiles架包/commons-io-2.6-src.zip"/>
+	<classpathentry kind="lib" path="lib/lombok.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

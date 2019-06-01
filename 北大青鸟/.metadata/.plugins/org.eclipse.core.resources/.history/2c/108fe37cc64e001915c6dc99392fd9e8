@@ -1,0 +1,48 @@
+package cn.kgc.demo01;
+
+import java.util.Scanner;
+
+/**
+ * 写一个银行类，有如下功能
+ * 判断是否注册，没有就注册用户，每个用户都有唯一的id
+ * 可以查询余额，进行转账，
+ * 也可以进行注销
+ * 
+ * @author zhuhao
+ * @date 2019年3月25日
+ */
+public class HackerBank {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		System.out.println("欢迎来到hk银行，想干点什么吗？\n请选择序号：");
+		System.out.println("1:查询余额\n2:转账\n3：注册账户\n4:离开");
+		int a = input.nextInt();
+		boolean flag = true;
+		while(flag) {
+			if(a<0 || a>4) {
+				System.out.println("请选择有用的序号");
+				a = input.nextInt();
+			}else {
+				flag = true;
+			}
+		}
+		switch(a) {
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+			
+		
+		
+		}
+
+		User user1 = new User();
+		user1.setId(1);
+		long id = user1.getId();
+		System.out.println(id);
+
+	}
+
+}

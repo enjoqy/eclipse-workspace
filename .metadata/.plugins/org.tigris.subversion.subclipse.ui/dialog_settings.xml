@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="HistoryTableProvider.SVNHistoryPage.日期" value="308"/>
+	<item key="AnnotateDialog.location.y" value="122"/>
+	<item key="AnnotateDialog.size.x" value="525"/>
+	<item key="HistoryTableProvider.SVNHistoryPage.作者" value="246"/>
+	<item key="AnnotateDialog.location.x" value="389"/>
+	<item key="AnnotateDialog.size.y" value="394"/>
+	<item key="HistoryTableProvider.SVNHistoryPage.注释" value="614"/>
+	<item key="HistoryTableProvider.SVNHistoryPage.修订" value="123"/>
+	<item key="ExportRemoteFolderDialog.location.x" value="523"/>
+	<item key="ExportRemoteFolderDialog.location.y" value="205"/>
+	<item key="ExportRemoteFolderDialog.size.x" value="257"/>
+	<item key="ExportRemoteFolderDialog.size.y" value="269"/>
+	<item key="RepositorySelectionPage.lastRepository" value="svn://116.62.170.36"/>
+	<item key="DirectorySelectionPage.lastParent_svn://47.99.150.144" value=""/>
+	<item key="CommitDialog.location.x" value="59"/>
+	<item key="CommitDialog.location.y" value="0"/>
+	<item key="CommitDialog.size.x" value="1186"/>
+	<item key="CommitDialog.size.y" value="768"/>
+	<item key="CommitDialog.weights.0" value="500"/>
+	<item key="CommitDialog.weights.1" value="500"/>
+	<item key="DirectorySelectionPage.lastParent_svn://116.62.170.36" value=""/>
+	<section name="NewLocationWizard">
+		<list key="ConfigurationWizardMainPage.STORE_URL_ID">
+			<item value="svn://localhost/"/>
+			<item value="svn://localhost/svn仓库"/>
+			<item value="svn://localhost/svn仓库wc"/>
+			<item value="svn://47.99.150.144"/>
+		</list>
+	</section>
+	<section name="CommitWizard">
+		<item key="VWeight1" value="500"/>
+		<item key="VWeight2" value="500"/>
+		<item key="ShowCompare" value="false"/>
+	</section>
+</section>

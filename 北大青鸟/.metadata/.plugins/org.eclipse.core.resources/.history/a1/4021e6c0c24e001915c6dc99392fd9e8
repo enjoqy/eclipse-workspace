@@ -1,0 +1,33 @@
+package cn.kgc.demo01;
+
+import java.util.UUID;
+
+import org.junit.Test;
+
+public final class CreateID {
+
+	private static long ID;
+
+	static UUID uuid = UUID.randomUUID();
+	
+	private String  replace(UUID uuid) {
+		String str =  uuid.toString().replace("-", "");
+//		str = str.substring(0, 16);
+		StringBuilder str1 = new StringBuilder();
+		for (char c : str.toCharArray()) {
+			if(Character.isDigit(c)) {
+				str1.append(c);
+			}
+		}
+		return str;
+	}
+
+	public static void main(String[] args) {
+		CreateID cid = new CreateID();
+		System.out.println(uuid.toString().length());
+		String str = cid.replace(uuid);
+		System.out.println(str.length());
+	}
+	
+
+}

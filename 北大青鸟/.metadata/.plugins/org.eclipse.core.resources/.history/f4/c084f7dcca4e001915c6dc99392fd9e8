@@ -1,0 +1,88 @@
+package cn.kgc.demo01;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+/**
+ * 写一个银行类，有如下功能
+ * 判断是否注册，没有就注册用户，每个用户都有唯一的id
+ * 可以查询余额，进行转账，
+ * 也可以进行注销
+ * 
+ * @author zhuhao
+ * @date 2019年3月25日
+ */
+public class HackerBank {
+
+	public static void main(String[] args) {
+		List users = new ArrayList<>();
+		List ids = new ArrayList<>();
+
+		Scanner input = new Scanner(System.in);
+
+		System.out.println("欢迎来到hk银行，想干点什么吗？\n请选择序号：");
+		System.out.println("1:查询余额\n2:转账\n3：注册账户\n4:离开");
+
+		int a = input.nextInt();
+
+		boolean flag = true;
+		while(flag) {
+			if(a<1 || a>4) {
+				System.out.println("请选择有用的序号");
+				a = input.nextInt();
+				flag = true;
+			}else {
+				flag = false;
+			}
+		}
+
+		while(true) {
+			switch(a) {
+			case 1:   //查询余额
+				System.out.println("请输入10位数银行卡号");
+				long id = input.nextLong();
+				while(true) {
+					if(ids.get(0).equals(id) ) {
+						break;
+					}
+					System.out.println("没有这个id，请重新输入，或者注册用户");
+					id = input.nextLong();
+				}
+
+				System.out.println("你的账户名为： " + ids.get(0) + " 您的账户余额为：" + users.get(0) );
+
+
+
+				break;
+
+
+
+
+			case 2:   //转账
+
+
+			case 3:  //注册账户
+				User user = new User();
+				System.out.println("请输入姓名：");
+				String name = input.next();
+				user.setName(name);
+				System.out.println("请输入要存多少钱：");
+				double d = input.nextDouble();
+				user.setBalance(d);
+				user.setId(1);
+				ids.add(user.getId());
+				System.out.println("系统帮您创建的一个10位数的银行卡号:" + user.getId() );
+				users.add(user.getBalance());
+				System.out.println("账户创建好了，请输入银行卡号吧");
+
+			case 4:  //离开
+
+
+
+			}
+
+		}
+	}
+
+}

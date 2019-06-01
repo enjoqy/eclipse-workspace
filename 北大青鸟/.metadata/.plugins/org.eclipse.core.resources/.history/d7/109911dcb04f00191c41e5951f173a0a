@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<school>
+  <student id="1" score="59.8">
+    <name>郑勇</name>
+    <age>66</age>
+    <sex>妖</sex>
+  </student>
+</school>

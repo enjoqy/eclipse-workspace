@@ -1,0 +1,55 @@
+package com.train;
+
+/**
+ * 汽车类 
+ * @author Administrator
+ *
+ */
+
+public class Car {
+	
+	private String brand;
+	private String type;
+	private double price;
+	private int loadNum;
+	public String getBrand() {
+		return brand;
+	}
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+	public double getPrice() {
+		return price;
+	}
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	public int getLoadNum() {
+		return loadNum;
+	}
+	public void setLoadNum(int loadNum) {
+		this.loadNum = loadNum;
+	}
+	
+	public Car() {
+	}
+	public Car(String brand, String type, double price, int loadNum) {
+		this.brand = brand;
+		this.type = type;
+		this.price = price;
+		this.loadNum = loadNum;
+	}
+	@Override
+	public String toString() {
+		return "Car [brand=" + brand + ", type=" + type + ", price=" + price + ", loadNum=" + loadNum + "]";
+	}
+	
+	
+
+}

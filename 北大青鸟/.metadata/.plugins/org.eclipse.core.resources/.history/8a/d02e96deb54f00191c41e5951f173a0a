@@ -1,0 +1,67 @@
+package cn.kgc.mydate;
+
+import java.time.LocalDateTime;
+
+/**
+ * LocalDateTime\LocalDate\LocalTime：
+ * 		1.JDK1.8+新特性
+ * 		2.之前的日期类都在java.util包下，新的日期类都在java.time
+ * 		3.起源于一个组件joda-time
+ * 		4.是一个工具类，构造方法私有，不能直接创建对象。
+ * 		5.常用方法：
+ * 			1.now()：获取当前时间2019-03-26T13:44:58.156 T代表后面跟着时间
+ * 			2.of(2019, 5, 1, 13, 12)
+ * 			3.parse(dateString)
+ * 			4.getYear()\getMonth()\getMonthValue()\getDayOfMonth()\getDayOfWeek().getValue()
+ * 		6.LocalDateTime 和 Date之间的转换：
+ * 			1.
+ * 
+ * DateTimeFormatter：
+ * 		1.日期类格式化器
+ * 		2.之前的DateFormat和SimpleDateFormat都在java.text包下
+ * 		3.DateTimeFormatter在java.time.format包下
+ * 		3.常用方法；ofPattern("格式化模式")
+ * 
+ * Instant:
+ * 		1.时间戳：实际上，这一瞬间存在一些限制。 可测量的时间线限制在long中可以持有的long 。 这大于当前估计的宇宙年龄。 该瞬间存储为纳秒分辨率。 
+ * 		2.java.time包下
+ * 
+ * ZoneId
+ * 		1.用于识别用于在Instant和LocalDateTime之间转换的规则。
+ * 		2.常用方法：systemDefault()
+ * 
+ * @author junki
+ * @date 2019年3月26日
+ */
+
+public class DemoLocalDateTime {
+	
+	public static void main(String[] args) {
+		
+		LocalDateTime localDateTime = LocalDateTime.now();
+		
+		//獲取時間信息
+		System.out.println(localDateTime);
+		System.out.println(localDateTime.getDayOfMonth());
+		System.out.println(localDateTime.getDayOfYear());
+		System.out.println(localDateTime.getMonthValue());
+		System.out.println(localDateTime.getYear());
+		System.out.println(localDateTime.getMonth().getValue());
+		System.out.println(localDateTime.getHour());
+		System.out.println(localDateTime.getMinute());
+		System.out.println(localDateTime.getDayOfWeek().getValue());
+		System.out.println(localDateTime.getSecond());
+		
+		//获取指定的时间
+		LocalDateTime of = LocalDateTime.of(2010, 1, 14, 8,56, 20, 1000);
+		System.out.println(of);
+		
+		//根据时间字符串获取
+		String string = "2010-12-12T1:12:12:123";
+		LocalDateTime parse = LocalDateTime.parse(string);
+		System.out.println(parse);
+		
+		
+	}
+
+}

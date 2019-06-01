@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- 应用外部DTD文件 -->
+
+<!DOCTYPE scores SYSTEM "cores.DTD">
+
+
+<scores>
+	<student id="1">
+		<name>小明</name>
+		<coures>Java</coures>
+		<scores>59</scores>
+	</student>
+	<student id="2">
+		<name>小红</name>
+		<coures>Python</coures>
+		<scores>50</scores>
+	</student>
+
+</scores>

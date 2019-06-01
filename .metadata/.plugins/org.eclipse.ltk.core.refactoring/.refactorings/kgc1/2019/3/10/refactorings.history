@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;kgc.orderingmeals&apos; to &apos;kgc/src&apos;&#x0D;&#x0A;- Original project: &apos;kgc1&apos;&#x0D;&#x0A;- Destination element: &apos;kgc/src&apos;&#x0D;&#x0A;- Original element: &apos;kgc1/src/kgc.orderingmeals&apos;" description="Copy package" destination="=kgc/src" element1="/src&lt;kgc.orderingmeals" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1551771420013" version="1.0"/>
+</session>

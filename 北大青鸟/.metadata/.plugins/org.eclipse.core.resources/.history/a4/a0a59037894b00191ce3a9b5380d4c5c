@@ -1,0 +1,16 @@
+package cn.kgc;
+
+public class Demo01 {
+	public static void main(String[] args) {
+		char a = 2;
+		double t = 2.0;
+		System.out.println(a == t);
+		
+		boolean[] b = new boolean[1];
+		System.out.println(b[0]);
+		
+		final static int i = 10;
+		
+		
+	}
+}

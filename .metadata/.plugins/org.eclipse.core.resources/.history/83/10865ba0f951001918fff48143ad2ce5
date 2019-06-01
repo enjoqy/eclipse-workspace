@@ -1,0 +1,22 @@
+package com.zhuhao.imgcrawler;
+
+import org.junit.Test;
+import org.seimicrawler.xpath.JXDocument;
+
+public class JsoupXpathDemo01 {
+	
+	@Test
+	public void test01() {
+		
+		JXDocument jxDocument = JXDocument.createByUrl("http://www.umei.cc/tags/diaodai.htm");
+		
+		System.out.println(jxDocument.toString());
+		
+		
+		
+		
+		
+		
+	}
+
+}

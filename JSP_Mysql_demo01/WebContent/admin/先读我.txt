@@ -1,0 +1,5 @@
+admin.jsp   新闻后台首页
+adminBottom.jsp   页面底部
+adminRightbar.jsp  页面右侧内容（主体部分，如：新闻列表显示部分）
+adminSidebar.jsp   页面左侧导航部分 
+adminTop.jsp       页面顶部

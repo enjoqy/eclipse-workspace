@@ -1,0 +1,158 @@
+package cn.kgc.myio;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.PrintStream;
+import java.io.PrintWriter;
+import java.io.Reader;
+import java.nio.CharBuffer;
+import java.util.Arrays;
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.IOUtils;
+import org.junit.Test;
+
+/**
+ * 测试io流
+ * 
+ * @author zhuhao
+ * @date 2019年3月27日
+ */
+public class demo02 {
+
+	public static void main(String[] args) throws IOException {
+
+		File file = new File("H://test.txt");
+		boolean createNewFile = file.createNewFile();
+		System.out.println(createNewFile);
+
+		boolean directory = file.isDirectory();
+		System.out.println(directory);
+
+		boolean exists = file.exists();
+		System.out.println(exists);
+
+		boolean file2 = file.isFile();
+		System.out.println(file2);
+
+	}
+
+	@Test
+	public void test01() throws IOException {
+		InputStream in = new FileInputStream(new File("H://test.txt"));
+
+		int tmp = 0;
+		while ((tmp = in.read()) != -1) {
+			System.out.print((char) tmp);
+		}
+		System.out.println("---");
+		in.close();
+	}
+
+	@Test
+	public void test2() throws IOException { // 中文乱码
+
+		InputStream in = new FileInputStream(new File("H://test.txt"));
+
+		byte[] tmp = new byte[1024];
+		int len = 0;
+
+		while ((len = in.read(tmp)) != -1) {
+			System.out.println(new String(tmp,0,len, "gbk"));
+		}
+	}
+
+	@Test
+	public void test3() throws IOException {
+		Reader frReader = new FileReader(new File("H://test.txt"));
+		FileWriter fileWriter = new FileWriter("H://testcopy.txt");
+		
+		
+
+		// byte[] tmp = new byte[1024];
+		int c = 0;
+
+		while ((c = frReader.read()) != -1) { // 此处中文乱码，因为本地文件和jvm使用的不是同一种编码，通过另一个节点流FileInputStream转码。
+			fileWriter.write(c);
+		}
+		frReader.close();
+		fileWriter.close();
+
+	}
+
+	@Test
+	public void test4() throws FileNotFoundException {
+		InputStreamReader inputStreamReader = new InputStreamReader(new FileInputStream(new File("H://test.txt")));
+	}
+
+	@Test
+	public void test5() throws IOException {
+		
+		//使用fileWriter写入
+		StringBuilder stringBuilder = new StringBuilder();
+		
+		for (int i = 1; i <= 9; i++) {
+			for (int j = 1; j <= i; j++) {
+				stringBuilder.append(i + "*" + j + "=" + (i * j) + "\t");
+			}
+			stringBuilder.append("\n\n");
+		}
+		
+		FileWriter fileWriter = new FileWriter(new File("demo01.txt"));
+		fileWriter.write(stringBuilder.toString());
+		fileWriter.close();
+		
+		
+	}
+	
+	@Test
+	public void test6() throws FileNotFoundException {
+		
+		//使用重定向io流，将控制台的输出，重定向到io流，并输出到文件
+		
+		PrintStream printStream = new PrintStream(new FileOutputStream(new File("demo02.txt")));
+		System.setOut(printStream);
+		
+		for (int i = 1; i <= 9; i++) {
+			for (int j = 1; j <= i; j++) {
+				System.out.print(i + "*" + j + "=" + (i * j) + "\t");
+			}
+			System.out.println("\n");
+		}
+		
+		printStream.close();
+		
+	}
+	
+	@Test
+	public void test7() throws IOException {
+		
+		Reader frReader = new FileReader(new File("H://test.txt"));
+		FileWriter fileWriter = new FileWriter("H://testcopy1111.txt");
+		
+		IOUtils.copy(frReader, fileWriter);
+		System.out.println("输出成功");
+		
+		IOUtils.closeQuietly(frReader);;
+		IOUtils.closeQuietly(fileWriter);
+	}
+	
+	@Test
+	public void test8() throws IOException {
+		String readFileToString = FileUtils.readFileToString(new File("H://test.txt"), "utf-8");
+		System.out.println(readFileToString);
+		List<String> readLines = FileUtils.readLines(new File("H://test.txt"), "utf-8");
+		System.out.println(readLines + "aaa");
+	}
+}

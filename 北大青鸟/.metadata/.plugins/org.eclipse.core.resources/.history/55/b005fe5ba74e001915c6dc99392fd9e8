@@ -1,0 +1,43 @@
+package Demo;
+
+public class Demo01<T, K, V> {
+	
+	private T name;
+	private K age;
+	private V sex;
+	public T getName() {
+		return name;
+	}
+	public void setName(T name) {
+		this.name = name;
+	}
+	public K getAge() {
+		return age;
+	}
+	public void setAge(K age) {
+		this.age = age;
+	}
+	public V getSex() {
+		return sex;
+	}
+	public void setSex(V sex) {
+		this.sex = sex;
+	}
+	@Override
+	public String toString() {
+		return "Demo01 [name=" + name + ", age=" + age + ", sex=" + sex + "]";
+	}
+	public Demo01() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Demo01(T name, K age, V sex) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.sex = sex;
+	}
+	
+	
+
+}

@@ -1,0 +1,32 @@
+package cn.kgc.domxml;
+
+import java.io.File;
+
+import org.dom4j.Document;
+import org.dom4j.DocumentException;
+import org.dom4j.Element;
+import org.dom4j.io.SAXReader;
+
+/**
+ * dom4j解析xml文档
+ * 
+ * @author zhuhao
+ * @date 2019年3月25日
+ */
+public class Dom4jDemo  {
+	
+	public static void main(String[] args) throws DocumentException {
+		//1,创建SAXReader对象，用于读取xml文件
+		SAXReader reader = new SAXReader();
+		//2,读取xml文件，得到Document对象
+		Document doc = reader.read(new File("src/scores2.xml"));
+		//3,获取根元素
+		Element rootElement = doc.getRootElement();
+		System.out.println(rootElement.getName());
+		
+		
+	}
+	
+
+	
+}

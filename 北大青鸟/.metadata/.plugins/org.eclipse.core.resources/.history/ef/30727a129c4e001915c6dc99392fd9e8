@@ -1,0 +1,36 @@
+package cn.kgc;
+
+public class BoyFriend {
+	
+	private String boy;
+	private double salary;
+
+	public String getBoy() {
+		return boy;
+	}
+	public void setBoy(String boy) {
+		this.boy = boy;
+	}
+	public double getSalary() {
+		return salary;
+	}
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+	public BoyFriend() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public BoyFriend(String boy, double salary) {
+		super();
+		this.boy = boy;
+		this.salary = salary;
+	}
+	
+	
+	
+	@Override
+	public String toString() {
+		return "BoyFriend [boy=" + boy + ", salary=" + salary + "]";
+	}
+}

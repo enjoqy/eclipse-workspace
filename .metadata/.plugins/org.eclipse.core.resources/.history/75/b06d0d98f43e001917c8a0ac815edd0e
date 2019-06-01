@@ -1,0 +1,20 @@
+package com.train;
+
+/**
+ * @author zhuhao
+ * @date 2019年3月5日
+ */
+public class JAC extends Car{
+	
+	private final static String BRAND = "JAC";
+	
+	public JAC() {
+		this.setBrand(BRAND);
+	}
+
+	public JAC(String brand, String type, double price, int loadNum) {
+		super(BRAND, type, price, loadNum);
+	}
+
+	
+}

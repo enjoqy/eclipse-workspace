@@ -1,0 +1,34 @@
+package com.train;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+/**
+ * BufferedReader and BufferedWriter
+ * 		readLine() 支持整行读取
+ * 
+ * @author junki
+ * @date 2019年3月27日
+ */
+public class Demo09BufferedReaderAndBufferedWriter {
+	
+	public static void main(String[] args) throws IOException {
+		File file1 = new File("D:\\java\\projects\\java1926\\javacore0327\\src\\test.txt");
+		File file2 = new File("D:\\java\\projects\\java1926\\javacore0327\\src\\testCopy.txt");
+		BufferedReader br = new BufferedReader(new FileReader(file1));
+		BufferedWriter bw = new BufferedWriter(new FileWriter(file2));
+		
+		String line = null;
+		while ((line = br.readLine())!=null) {
+			bw.write(line);
+		}
+		
+		bw.close();//不关闭，目标文件没有数据
+		br.close();
+	}
+	
+}

@@ -1,0 +1,15 @@
+package cn.kgc;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Random;
+
+public class Demo01 {
+
+	public static void main(String[] args) {
+		String email="susan@prd.com";
+		String name=email.substring(0,email.indexOf("@"));
+	}
+}

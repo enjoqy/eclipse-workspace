@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- 声明内部DTD文件 -->
+
+
+<!DOCTYPE  scores  [
+	<!ELEMENT scores (sutdent +)>
+	<!ELEMENT student (name, coures, scores)>
+	<!ELEMENT student id CDATA #IMPLIED>  <!-- #REQUIRED必须的 -->
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT coures (#PCDATA)>
+	<!ELEMENT scores (#PCDATA)>
+]>
+
+
+<scores>
+	<student id="1">
+		<name>小明</name>
+		<coures>Java</coures>
+		<scores>59</scores>
+	</student>
+	<student id="2">
+		<name>小红</name>
+		<coures>Python</coures>
+		<scores>50</scores>
+	</student>
+
+</scores>

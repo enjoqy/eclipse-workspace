@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT books (book +)>
+<!ELEMENT book (name, auther, price)>
+<!ELEMENT book id CDATA #IMPLIED >
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT auther (#PCDATA) >
+<!ELEMENT price (#PCDATA) >

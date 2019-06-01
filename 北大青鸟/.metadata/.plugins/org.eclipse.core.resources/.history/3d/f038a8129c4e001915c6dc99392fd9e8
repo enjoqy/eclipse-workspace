@@ -1,0 +1,22 @@
+package cn.kgc;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MyMap001 {
+	
+	public static void main(String[] args) {
+		
+		Map<BoyFriend, GirlFriend> map = new HashMap<>();
+		
+		map.put(new BoyFriend(), new GirlFriend());
+		map.put(new BoyFriend(), new GirlFriend());
+		map.put(new BoyFriend(), new GirlFriend());
+		
+		System.out.println(map);
+		
+		
+		
+	}
+
+}

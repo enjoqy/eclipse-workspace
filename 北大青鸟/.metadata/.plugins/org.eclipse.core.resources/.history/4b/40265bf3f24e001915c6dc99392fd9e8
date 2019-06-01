@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT scores (sutdent +)>
+<!ELEMENT student(name, coures, scores)>
+<!ELEMENT id CDATA #IMPLIED>  <!-- #REQUIRED必须的 -->
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT coures (#PCDATA)>
+<!ELEMENT scores (#PCDATA)>

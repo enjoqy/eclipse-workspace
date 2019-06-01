@@ -1,0 +1,148 @@
+1553476785309	Copy compilation units
+1553477999084	Rename compilation unit 'Week.java'
+1553478057176	Delete element
+1553481488447	Delete element
+1553481494452	Delete element
+1553481497964	Delete element
+1553481506954	Delete element
+1553481508476	Delete element
+1553481596350	Rename package 'cn.kgc'
+1553481632358	Delete element
+1553483818780	Extract local variable 'str'
+1553483824328	Extract local variable 'substring'
+1553483900939	Extract local variable 'matches'
+1553484213460	Extract local variable 'replaceFirst'
+1553484377802	Extract local variable 'split'
+1553486369429	Extract local variable 'randomUUID'
+1553490995592	Delete element
+1553490997557	Delete element
+1553491007440	Delete elements
+1553491775208	Rename type 'MyUUID'
+1553492091772	Extract local variable 'replace'
+1553492302441	Extract local variable 'replace'
+1553494252613	Extract local variable 'id'
+1553497755975	Extract local variable 'user'
+1553497937417	Extract local variable 'user1'
+1553513888414	Copy file
+1553515416611	Copy files
+1553515433198	Delete element
+1553515436955	Delete element
+1553515441286	Copy file
+1553515444833	Delete element
+1553515542705	Extract local variable 'doc'
+1553515687048	Extract local variable 'rootElement'
+1553515949063	Extract local variable 'next'
+1553516511276	Extract local variable 'next'
+1553516600508	Extract local variable 'attributeIterator'
+1553522546022	Delete element
+1553522556282	Rename resource 'NewFile.xml'
+1553561858327	Rename package 'cn.kgc.demo01'
+1553569854954	Extract local variable 'format'
+1553571087325	Extract local variable 'parse'
+1553571403456	Copy compilation unit
+1553571413262	Delete element
+1553572344295	Extract local variable 'year'
+1553576577609	Copy compilation unit
+1553576583155	Delete element
+1553577339757	Extract local variable 'date'
+1553577870110	Extract local variable 'actualMaximum'
+1553578601037	Extract local variable 'dayOfWeek'
+1553578903388	Extract local variable 'firstDayOfWeek'
+1553579619198	Extract local variable 'firstDayOfWeek'
+1553579665563	Extract local variable 'i'
+1553583144391	Extract local variable 'i'
+1553584471857	Extract local variable 'builder'
+1553586306394	Extract local variable 'curdate'
+1553587667504	Copy compilation unit
+1553588062796	Copy compilation units
+1553588568159	Copy compilation units
+1553589129647	Extract local variable 'read'
+1553589181430	Extract local variable 'rootElement'
+1553589216653	Extract local variable 'elementIterator'
+1553589245264	Extract local variable 'next'
+1553589523995	Extract local variable 'attributeIterator'
+1553589633899	Extract local variable 'elementIterator2'
+1553590356764	Extract local variable 'createDocument'
+1553590439235	Extract local variable 'addElement'
+1553590552882	Extract local variable 'addElement'
+1553590783237	Extract local variable 'name'
+1553590803570	Extract local variable 'age'
+1553590827551	Extract local variable 'sex'
+1553591702227	Extract local variable 'format'
+1553597530642	Extract local variable 'of'
+1553597711385	Extract local variable 'parse'
+1553598421478	Extract local variable 'ofPattern'
+1553598438157	Extract local variable 'parse2'
+1553598681124	Extract local variable 'withNano'
+1553599055720	Extract local variable 'plusSeconds'
+1553599399414	Extract local variable 'date'
+1553599520216	Extract local variable 'simpleDateFormat'
+1553599576855	Extract local variable 'format'
+1553599716716	Extract local variable 'parse'
+1553600669115	Extract local variable 'date2'
+1553600763016	Extract local variable 'instant'
+1553600791555	Extract local variable 'ofInstant'
+1553600965197	Extract local variable 'now'
+1553601051674	Extract local variable 'format'
+1553601078473	Extract local variable 'parse'
+1553601379415	Extract local variable 'ofPattern'
+1553601417636	Extract local variable 'format'
+1553601541261	Extract local variable 'format2'
+1553601589059	Extract local variable 'simpleDateFormat'
+1553601623697	Extract local variable 'date'
+1553601953745	Extract local variable 'instant'
+1553602225630	Extract local variable 'atZone'
+1553602302231	Extract local variable 'instant'
+1553602378650	Extract local variable 'from'
+1553605501024	Extract local variable 'date'
+1553605571943	Extract local variable 'format'
+1553605621450	Extract local variable 'now'
+1553605738399	Extract local variable 'parse'
+1553606165961	Extract local variable 'instant'
+1553606313295	Extract local variable 'ofInstant'
+1553606414701	Extract local variable 'now'
+1553606479055	Extract local variable 'simpleDateFormat'
+1553606855615	Extract local variable 'format'
+1553607061639	Extract local variable 'ofPattern'
+1553607278916	Extract local variable 'format'
+1553607381054	Extract local variable 'parse'
+1553607522645	Extract local variable 'simpleDateFormat'
+1553607542915	Extract local variable 'date'
+1553607784725	Extract local variable 'atZone'
+1553607808440	Extract local variable 'instant'
+1553607877775	Extract local variable 'from'
+1553607994465	Extract local variable 'date'
+1553608046438	Extract local variable 'simpleDateFormat'
+1553608068920	Extract local variable 'format'
+1553608263335	Extract local variable 'parse'
+1553608327543	Extract local variable 'instant'
+1553608464132	Extract local variable 'ofInstant'
+1553608540905	Extract local variable 'now'
+1553608610801	Extract local variable 'format'
+1553608736363	Extract local variable 'parse'
+1553609165319	Extract local variable 'atZone'
+1553609193586	Extract local variable 'instant'
+1553609213009	Extract local variable 'from'
+1553609335784	Extract local variable 'atOffset'
+1553609398388	Extract local variable 'instant2'
+1553609484106	Extract local variable 'from'
+1553609938680	Extract local variable 'from2'
+1553648452543	Extract local variable 'format'
+1553648818874	Delete element
+1553648904104	Extract local variable 'exists'
+1553648915099	Extract local variable 'directory'
+1553649014311	Extract local variable 'file2'
+1553649070155	Extract local variable 'createNewFile'
+1553649298871	Delete element
+1553650668838	Extract local variable 'read'
+1553652837258	Extract local variable 'fileWriter'
+1553652907923	Extract local variable 'read'
+1553654777118	Extract local variable 'inputStreamReader'
+1553655429193	Extract local variable 'printStream'
+1553655661357	Delete element
+1553659190249	Extract local variable 'readFileToString'
+1553659521844	Delete element
+1553660667677	Extract local variable 'readLines'
+1553665747865	Extract local variable 'bufferedReader'
+1553665850589	Extract local variable 'bufferedReader'
+1553665894467	Extract local variable 'readLine'

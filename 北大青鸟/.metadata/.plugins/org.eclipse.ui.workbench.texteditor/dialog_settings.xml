@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="package cn.kgc.demo01;" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="package cn.kgc.demo01;"/>
+			<item value="equals"/>
+			<item value="value"/>
+			<item value="this"/>
+			<item value="Capacity "/>
+			<item value="boolean"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+</section>

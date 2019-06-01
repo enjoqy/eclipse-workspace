@@ -1,0 +1,34 @@
+package com.zhuhao.imgcrawler;
+
+import java.util.List;
+
+import org.junit.Test;
+import org.seimicrawler.xpath.JXDocument;
+
+public class JsoupXpathDemo01 {
+	
+	@Test
+	public void test01() {
+		
+		JXDocument jxDocument = JXDocument.createByUrl("http://www.umei.cc/tags/diaodai.htm");
+		List<Object> sel = jxDocument.sel("//*[@class=\"TypeList\"]//img");
+		
+		//<img src="http://i1.whymtj.com/uploads/tu/201903/10412/csa1q9a9.jpg"
+		for (Object object : sel) {
+			
+			String node = object.toString();
+			String imgUrl = node.substring(node.indexOf("src=\"") + 5, node.indexOf("\" width"));
+			String imgName = node.substring(node.lastIndexOf("/") + 1, node.indexOf("\" width"));
+			
+			System.out.println(imgName);
+			
+		}
+		
+		
+		
+		
+		
+		
+	}
+
+}

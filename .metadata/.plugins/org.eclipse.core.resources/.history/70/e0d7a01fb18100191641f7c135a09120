@@ -1,0 +1,6 @@
+package org.zhh.domain;
+
+@Data
+public class Informations {
+
+}

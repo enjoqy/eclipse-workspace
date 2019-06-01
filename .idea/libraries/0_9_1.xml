@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="0.9.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/druid/lib/proxool/proxool/0.9.1/proxool-0.9.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/druid/lib/proxool/proxool/0.9.1/proxool-0.9.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

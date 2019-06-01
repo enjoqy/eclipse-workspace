@@ -1,0 +1,48 @@
+package com.zhuhao.imgcrawler;
+
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.net.URL;
+import java.util.List;
+
+import org.apache.commons.io.FileUtils;
+import org.junit.Test;
+import org.seimicrawler.xpath.JXDocument;
+
+public class JsoupXpathDemo01 {
+	
+	
+	
+		
+		public static void test() {
+			for (int i = 0; i < 43; i++) {
+				
+				
+				JXDocument jxDocument = JXDocument.createByUrl("http://www.umei.cc/tags/diaodai.htm");
+				List<Object> sel = jxDocument.sel("//*[@class=\"TypeList\"]//img");
+				
+				//<img src="http://i1.whymtj.com/uploads/tu/201903/10412/csa1q9a9.jpg"
+				for (Object object : sel) {
+					
+					String node = object.toString();
+					String imgUrl = node.substring(node.indexOf("src=\"") + 5, node.indexOf("\" width"));
+					String imgName = node.substring(node.lastIndexOf("/") + 1, node.indexOf("\" width"));
+					
+					FileUtils.copyURLToFile(new URL(imgUrl), new File("H:\\爬取图片测试\\test" + imgName));
+					System.out.println("正在下载： " + imgName);
+					
+				}
+				System.out.println("下载完毕");
+				
+			}
+		}
+		
+		
+		
+		
+		
+	}
+
+

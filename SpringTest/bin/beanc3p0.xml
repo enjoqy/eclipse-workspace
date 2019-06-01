@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd"> <!-- bean definitions here -->
+
+
+	<!-- 配置c3p0连接池 -->
+	<bean id="datasource"
+		class="com.mchange.v2.c3p0.ComboPooledDataSource">
+		<!-- 注入属性值 -->
+		<property name="driverClass" value="com.mysql.jdbc.Driver"></property>
+		<property name="jdbcUrl" value="jdbc:mysql:///mydb"></property> 
+		<property name="user" value="root"></property>
+		<property name="password" value="123"></property>
+	</bean>
+
+
+	<!-- 第一步配置事务管理器 -->
+	<bean id="transactionManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<!-- 注入dataSource -->
+		<property name="datasource" ref="datasource"></property>
+	</bean>
+
+	<!-- 第二部配置事物增强 -->
+	<tx:advice id="txadvice"
+		transaction-manager="transactionManager">
+        <!-- 做事物操作 -->
+        <tx:attributes>
+            <!-- 设置进行事物操作的方法匹配规则 -->
+            <tx:method name=""/>
+        
+        </tx:attributes>
+
+	</tx:advice>
+
+
+	<bean id="userService" class="Spring.jdbc.UserService">
+		<!-- 注入dao对象 -->
+		<property name="dao" ref="dao"></property>
+	</bean>
+	<bean id="dao" class="Spring.jdbc.Dao">
+		<!-- 注入jdbcTemplate对象 -->
+		<property name="jdbcTemplate" ref="JdbcTemplate"></property>
+	</bean>
+
+	<!-- 创建jdbcTemplate对象 -->
+	<bean id="JdbcTemplate"
+		class="org.springframework.jdbc.core.JdbcTemplate">
+		<!-- 把dataSource传到对象里面 -->
+		<property name="dataSource" ref="datasource"></property>
+	</bean>
+
+
+
+	<!-- <bean id="userService" class="Spring.jdbc.UserService"> <property name="dao" 
+		ref="dao"></property> </bean> <bean id="dao" class="Spring.jdbc.Dao"> <property 
+		name="jdbcTemplate" ref="jdbcTemplate"></property> </bean> <bean id="jdbcTemplate" 
+		class="org.springframework.jdbc.core.JdbcTemplate"> <property name="dataSource" 
+		ref="dataSource"></property> </bean> <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"> 
+		<property name="driverClass" value="com.mysql.jdbc.Driver"></property> <property 
+		name="jdbcUrl" value="jdbc:mysql:///mydb"></property> <property name="user" 
+		value="root"></property> <property name="password" value="123"></property> 
+		</bean> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</beans>
